@@ -1,0 +1,199 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "I Will Judge You By Your Bookshelf",
+        "author": "Grant Snider",
+        "cover": "https://m.media-amazon.com/images/I/71JVQlxb4+L._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Comics",
+        "locationId": 2
+      }, {
+        "id": 2,
+        "title": "what if?",
+        "author": "Randall Munroe",
+        "cover": "https://m.media-amazon.com/images/I/71FjRaS5j1L._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Comics",
+        "locationId": 2
+      }, {
+        "id": 3,
+        "title": "Nausicaa of the Valley of the Wind",
+        "author": "Hayao Miyazaki",
+        "cover": "https://m.media-amazon.com/images/I/71WEcSH68LL._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Manga",
+        "locationId": 3
+      }, {
+        "id": 4,
+        "title": "Misty of Chincoteague",
+        "author": "Marguerite Henry",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Misty_of_Chincoteague_cover.jpg",
+        "genre": "Children's Novel",
+        "locationId": 3
+      }, {
+        "id": 5,
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "cover": "https://d3525k1ryd2155.cloudfront.net/f/253/632/9780517632253.OL.0.m.jpg",
+        "genre": "Children's Novel",
+        "locationId": 3
+      }, {
+        "id": 6,
+        "title": "Have You Eaten Grandma?",
+        "author": "Gyles Brandreth",
+        "cover": "https://m.media-amazon.com/images/I/81nX3jgVb5L._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Humor",
+        "locationId": 2
+      }, {
+        "id": 7,
+        "title": "The 99% Invisible City",
+        "author": "Roman Mars",
+        "cover": "https://m.media-amazon.com/images/I/810hZrZBi9L._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Nonfiction",
+        "locationId": 2
+      }, {
+        "id": 8,
+        "title": "Scary Stories to Tell in the Dark",
+        "author": "Alvin Schwartz",
+        "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440189576l/1325218.jpg",
+        "genre": "Children's Horror",
+        "locationId": 4
+      }, {
+        "id": 9,
+        "title": "The Children of Hurin",
+        "author": "J. R. R.",
+        "cover": "https://m.media-amazon.com/images/I/81d5OgMZK8L._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Fantasy",
+        "locationId": 4
+      }, {
+        "id": 10,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "cover": "https://m.media-amazon.com/images/I/819ju9+8-NL._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Fiction",
+        "locationId": 4
+      }, {
+        "id": 11,
+        "title": "Where's Waldo?",
+        "author": "Martin Handford",
+        "cover": "https://m.media-amazon.com/images/I/A1auIg-I7WL._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Children's Picture",
+        "locationId": 4
+      }
+
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Rebecca",
+        "email": "rebecca@bookhoarder.com",
+        "password": "bec"
+      }, {
+        "id": 2,
+        "name": "Peter",
+        "email": "peter@bookhoarder.com",
+        "password": "pete"
+      }, {
+        "id": 3,
+        "name": "Lindsay",
+        "email": "lindsay@bookhoarder.com",
+        "password": "lin"
+      }, {
+        "id": 4,
+        "name": "Kate",
+        "email": "kate@bookhoarder.com",
+        "password": "kate"
+      }, {
+        "id": 5,
+        "name": "Jill",
+        "email": "jill@bookhoarder.com",
+        "password": "jill"
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "shelf": "Test Shelf"
+      }, {
+        "id": 2,
+        "shelf": "Living Room Black 5 Shelf"
+      }, {
+        "id": 3,
+        "shelf": "Office 8 Shelf Kallax"
+      }, {
+        "id": 4,
+        "shelf": "Family Room 4 Shelf Kallax"
+      }, {
+        "id": 5,
+        "shelf": "Master Bed 5 Shelf"
+      }, {
+        "id": 6,
+        "shelf": "Master Bed 3 Shelf"
+      }, {
+        "id": 7,
+        "shelf": "Bedroom Maple 5 Shelf"
+      }, {
+        "id": 8,
+        "shelf": "Closet Black 8 Shelf"
+      }
+    ],
+    "userBooks": [
+      {
+        "id": 1,
+        "bookId": 1,
+        "userId": 1
+      }, {
+        "id": 2,
+        "bookId": 2,
+        "userId": 2
+      }, {
+        "id": 3,
+        "bookId": 3,
+        "userId": 3
+      }, {
+        "id": 4,
+        "bookId": 4,
+        "userId": 5
+      }, {
+        "id": 5,
+        "bookId": 5,
+        "userId": 4
+      }, {
+        "id": 6,
+        "bookId": 6,
+        "userId": 1
+      }, {
+        "id": 7,
+        "bookId": 7,
+        "userId": 2
+      }, {
+        "id": 8,
+        "bookId": 8,
+        "userId": 3
+      }, {
+        "id": 9,
+        "bookId": 9,
+        "userId": 1
+      }, {
+        "id": 10,
+        "bookId": 10,
+        "userId": 2
+      }, {
+        "id": 11,
+        "bookId": 11,
+        "userId": 5
+      }
+    ],
+    "borrowedBooks": [
+      {
+        "id": 1,
+        "bookId": 2,
+        "borrowerName": "Test Friend"
+      }
+    ],
+    "userReadBooks": [
+      {
+        "id": 1,
+        "userId": 1,
+        "bookId": 1
+      }
+    ]
+}
