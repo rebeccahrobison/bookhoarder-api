@@ -65,12 +65,12 @@
       "locationId": 4
     },
     {
-      "id": 9,
       "title": "The Children of Hurin",
-      "author": "J. R. R.",
-      "cover": "https://m.media-amazon.com/images/I/81d5OgMZK8L._AC_UF1000,1000_QL80_.jpg",
+      "author": "J. R. R. Tolkein",
       "genre": "Fantasy",
-      "locationId": 4
+      "locationId": 4,
+      "cover": "https://m.media-amazon.com/images/I/81d5OgMZK8L._AC_UF1000,1000_QL80_.jpg",
+      "id": 9
     },
     {
       "id": 10,
@@ -103,6 +103,22 @@
       "genre": "Comics",
       "locationId": 4,
       "id": 13
+    },
+    {
+      "title": "Test",
+      "author": "Test",
+      "cover": "",
+      "genre": "Test",
+      "locationId": 1,
+      "id": 14
+    },
+    {
+      "title": "tested",
+      "author": "tested",
+      "genre": "tested",
+      "locationId": 1,
+      "cover": "tested",
+      "id": 15
     }
   ],
   "users": [
@@ -236,6 +252,16 @@
       "bookId": 13,
       "userId": 2,
       "id": 13
+    },
+    {
+      "bookId": 14,
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "bookId": 15,
+      "userId": 1,
+      "id": 15
     }
   ],
   "borrowedBooks": [
@@ -243,6 +269,11 @@
       "id": 1,
       "bookId": 2,
       "borrowerName": "Mikayla"
+    },
+    {
+      "bookId": 14,
+      "borrowerName": "test",
+      "id": 2
     }
   ],
   "userReadBooks": [
