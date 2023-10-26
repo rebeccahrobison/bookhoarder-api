@@ -9,12 +9,12 @@
       "locationId": 2
     },
     {
-      "id": 2,
       "title": "what if?",
       "author": "Randall Munroe",
-      "cover": "https://m.media-amazon.com/images/I/71FjRaS5j1L._AC_UF1000,1000_QL80_.jpg",
       "genre": "Comics",
-      "locationId": 2
+      "locationId": 1,
+      "cover": "https://m.media-amazon.com/images/I/71FjRaS5j1L._AC_UF1000,1000_QL80_.jpg",
+      "id": 2
     },
     {
       "id": 3,
@@ -111,14 +111,6 @@
       "genre": "Test",
       "locationId": 1,
       "id": 14
-    },
-    {
-      "title": "tested",
-      "author": "tested",
-      "genre": "tested",
-      "locationId": 1,
-      "cover": "tested",
-      "id": 15
     }
   ],
   "users": [
@@ -257,19 +249,9 @@
       "bookId": 14,
       "userId": 1,
       "id": 14
-    },
-    {
-      "bookId": 15,
-      "userId": 1,
-      "id": 15
     }
   ],
   "borrowedBooks": [
-    {
-      "id": 1,
-      "bookId": 2,
-      "borrowerName": "Mikayla"
-    },
     {
       "bookId": 14,
       "borrowerName": "test",
@@ -289,13 +271,13 @@
     },
     {
       "userId": 1,
-      "bookId": 2,
-      "id": 4
+      "bookId": 3,
+      "id": 5
     },
     {
       "userId": 1,
-      "bookId": 3,
-      "id": 5
+      "bookId": 2,
+      "id": 6
     }
   ]
 }
