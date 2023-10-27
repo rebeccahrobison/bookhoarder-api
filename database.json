@@ -255,15 +255,10 @@
     {
       "bookId": 14,
       "borrowerName": "test",
-      "id": 2
+      "id": 1
     }
   ],
   "userReadBooks": [
-    {
-      "id": 1,
-      "userId": 1,
-      "bookId": 1
-    },
     {
       "id": 3,
       "userId": 2,
@@ -278,6 +273,21 @@
       "userId": 1,
       "bookId": 2,
       "id": 6
+    },
+    {
+      "userId": 1,
+      "bookId": 1,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "bookId": 9,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "bookId": 11,
+      "id": 9
     }
   ]
 }
