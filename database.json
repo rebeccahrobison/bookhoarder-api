@@ -1,12 +1,12 @@
 {
   "books": [
     {
-      "id": 1,
       "title": "I Will Judge You By Your Bookshelf",
       "author": "Grant Snider",
-      "cover": "https://m.media-amazon.com/images/I/71JVQlxb4+L._AC_UF1000,1000_QL80_.jpg",
       "genre": "Comics",
-      "locationId": 2
+      "locationId": 2,
+      "cover": "https://m.media-amazon.com/images/I/71JVQlxb4+L._AC_UF1000,1000_QL80_.jpg",
+      "id": 1
     },
     {
       "title": "what if?",
@@ -105,12 +105,52 @@
       "id": 13
     },
     {
-      "title": "Test",
-      "author": "Test",
-      "cover": "",
-      "genre": "Test",
-      "locationId": 1,
-      "id": 14
+      "title": "A Thousand Mornings",
+      "author": "Mary Oliver",
+      "cover": "https://m.media-amazon.com/images/I/81v-O78c0XL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Poetry",
+      "locationId": 2,
+      "id": 15
+    },
+    {
+      "title": "A Wrinkle in Time",
+      "author": "Madeleine L'Engle",
+      "genre": "Juvenile Fiction",
+      "locationId": 4,
+      "cover": "https://m.media-amazon.com/images/I/81oqdz4hkeL._AC_UF1000,1000_QL80_.jpg",
+      "id": 16
+    },
+    {
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genre": "Juvenile Fiction",
+      "locationId": 4,
+      "cover": "https://m.media-amazon.com/images/I/614SwlZNtJL._AC_UF1000,1000_QL80_.jpg",
+      "id": 17
+    },
+    {
+      "title": "The Eyre Affair",
+      "author": "Jasper Fforde",
+      "genre": "Fiction",
+      "locationId": 4,
+      "cover": "https://m.media-amazon.com/images/I/51+MPGtbPoL.jpg",
+      "id": 18
+    },
+    {
+      "title": "Number One Ladies' Detective Agency",
+      "author": "Alexander McCall Smith",
+      "genre": "Fiction",
+      "cover": "http://books.google.com/books/content?id=MP3ZG5GQSaYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "locationId": 2,
+      "id": 19
+    },
+    {
+      "title": "Persuasion",
+      "author": "Jane Austen",
+      "genre": "Fiction",
+      "locationId": 5,
+      "cover": "https://m.media-amazon.com/images/I/81CMGqvgSKL._AC_UF1000,1000_QL80_.jpg",
+      "id": 20
     }
   ],
   "users": [
@@ -246,18 +286,42 @@
       "id": 13
     },
     {
-      "bookId": 14,
-      "userId": 1,
-      "id": 14
-    }
-  ],
-  "borrowedBooks": [
+      "bookId": 15,
+      "userId": 2,
+      "id": 15
+    },
     {
-      "bookId": 14,
-      "borrowerName": "test",
-      "id": 1
+      "bookId": 16,
+      "userId": 1,
+      "id": 16
+    },
+    {
+      "bookId": 17,
+      "userId": 4,
+      "id": 17
+    },
+    {
+      "bookId": 18,
+      "userId": 1,
+      "id": 18
+    },
+    {
+      "bookId": 19,
+      "userId": 1,
+      "id": 19
+    },
+    {
+      "bookId": 16,
+      "userId": 1,
+      "id": 20
+    },
+    {
+      "bookId": 20,
+      "userId": 2,
+      "id": 21
     }
   ],
+  "borrowedBooks": [],
   "userReadBooks": [
     {
       "id": 3,
@@ -276,11 +340,6 @@
     },
     {
       "userId": 1,
-      "bookId": 1,
-      "id": 7
-    },
-    {
-      "userId": 1,
       "bookId": 9,
       "id": 8
     },
@@ -288,6 +347,26 @@
       "userId": 1,
       "bookId": 11,
       "id": 9
+    },
+    {
+      "userId": 1,
+      "bookId": 1,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "bookId": 15,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "bookId": 17,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "bookId": 20,
+      "id": 13
     }
   ]
 }
