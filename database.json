@@ -151,6 +151,134 @@
       "locationId": 5,
       "cover": "https://m.media-amazon.com/images/I/81CMGqvgSKL._AC_UF1000,1000_QL80_.jpg",
       "id": 20
+    },
+    {
+      "title": "Stina",
+      "author": "Lani Yamamoto",
+      "genre": "Juvenile Fiction",
+      "locationId": 2,
+      "cover": "https://m.media-amazon.com/images/I/915DU1l9hvL._AC_UF1000,1000_QL80_.jpg",
+      "id": 21
+    },
+    {
+      "title": "National Parks of America",
+      "author": "Lonely Planet",
+      "genre": "Travel",
+      "locationId": 2,
+      "cover": "https://m.media-amazon.com/images/I/91TRcr643XL._AC_UF1000,1000_QL80_.jpg",
+      "id": 22
+    },
+    {
+      "title": "My Side of the Mountain",
+      "author": "Jean Craighead George",
+      "genre": "Juvenile Fiction",
+      "cover": "https://m.media-amazon.com/images/I/515ffLe98JL._SY445_SX342_.jpg",
+      "locationId": 4,
+      "id": 23
+    },
+    {
+      "title": "Rendezvous With Rama",
+      "author": "Arthur C. Clarke",
+      "genre": "Science Fiction",
+      "cover": "https://m.media-amazon.com/images/I/817MlvFujNL._AC_UF1000,1000_QL80_.jpg",
+      "locationId": 6,
+      "id": 24
+    },
+    {
+      "title": "El general en su laberinto",
+      "author": "Gabriel García Márquez",
+      "genre": "Novel",
+      "cover": "https://m.media-amazon.com/images/I/91FoK-BjFBL._AC_UF1000,1000_QL80_.jpg",
+      "locationId": 6,
+      "id": 25
+    },
+    {
+      "title": "Neverwhere",
+      "author": "Neil Gaiman",
+      "genre": "Fiction",
+      "cover": "http://books.google.com/books/content?id=YFmXzqVEOE4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "locationId": 6,
+      "id": 26
+    },
+    {
+      "title": "How to Talk So Kids Will Listen & Listen So Kids Will Talk",
+      "author": "Adele Faber",
+      "genre": "Family & Relationships",
+      "cover": "http://books.google.com/books/content?id=Tq6sAaN8tcIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "locationId": 6,
+      "id": 27
+    },
+    {
+      "title": "Daring Greatly",
+      "author": "Brené Brown",
+      "genre": "Business & Economics",
+      "locationId": 6,
+      "cover": "https://m.media-amazon.com/images/I/81zYoNvaRxL._AC_UF1000,1000_QL80_.jpg",
+      "id": 28
+    },
+    {
+      "title": "Zinn & the Art of Road Bike Maintenance",
+      "author": "Lennard Zinn",
+      "genre": "SPORTS & RECREATION",
+      "cover": "http://books.google.com/books/content?id=baIjLwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "locationId": 6,
+      "id": 29
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "genre": "Psychology",
+      "cover": "https://m.media-amazon.com/images/I/41shZGS-G+L.jpg",
+      "locationId": 6,
+      "id": 30
+    },
+    {
+      "title": "To Kill A Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "cover": "https://covers.openlibrary.org/b/id/14351052-L.jpg",
+      "locationId": 4,
+      "id": 31
+    },
+    {
+      "title": "A Separate Peace",
+      "author": "John Knowles",
+      "genre": "Fiction",
+      "cover": "https://www.pluggedin.com/wp-content/uploads/2020/01/separate-peace-cover-image-669x1024.jpeg",
+      "locationId": 5,
+      "id": 32
+    },
+    {
+      "title": "The Demon-Haunted World",
+      "author": "Carl Sagan",
+      "genre": "Science",
+      "locationId": 6,
+      "cover": "https://m.media-amazon.com/images/I/71NvAf6QhcL._AC_UF1000,1000_QL80_.jpg",
+      "id": 33
+    },
+    {
+      "title": "Beowulf (Bilingual Edition)",
+      "author": "Seamus Heaney",
+      "genre": "Poetry",
+      "cover": "http://books.google.com/books/content?id=m-7crEM3A0AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "locationId": 5,
+      "id": 34
+    },
+    {
+      "title": "Solutions and Other Problems",
+      "author": "Allie Brosh",
+      "genre": "Biography & Autobiography",
+      "cover": "http://books.google.com/books/content?id=HTOGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "locationId": 5,
+      "id": 35
+    },
+    {
+      "title": "Bone",
+      "author": "Jeff Smith",
+      "genre": "Comics & Graphic Novels",
+      "locationId": 4,
+      "cover": "https://m.media-amazon.com/images/I/51sCiRop0CL.jpg",
+      "id": 36
     }
   ],
   "users": [
@@ -186,10 +314,6 @@
     }
   ],
   "locations": [
-    {
-      "id": 1,
-      "shelf": "Test Shelf"
-    },
     {
       "id": 2,
       "shelf": "Living Room Black 5 Shelf"
@@ -319,6 +443,86 @@
       "bookId": 20,
       "userId": 2,
       "id": 21
+    },
+    {
+      "bookId": 21,
+      "userId": 1,
+      "id": 22
+    },
+    {
+      "bookId": 22,
+      "userId": 2,
+      "id": 23
+    },
+    {
+      "bookId": 23,
+      "userId": 4,
+      "id": 24
+    },
+    {
+      "bookId": 24,
+      "userId": 1,
+      "id": 25
+    },
+    {
+      "bookId": 25,
+      "userId": 2,
+      "id": 26
+    },
+    {
+      "bookId": 26,
+      "userId": 1,
+      "id": 27
+    },
+    {
+      "bookId": 27,
+      "userId": 1,
+      "id": 28
+    },
+    {
+      "bookId": 28,
+      "userId": 1,
+      "id": 29
+    },
+    {
+      "bookId": 29,
+      "userId": 2,
+      "id": 30
+    },
+    {
+      "bookId": 30,
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "bookId": 31,
+      "userId": 1,
+      "id": 32
+    },
+    {
+      "bookId": 32,
+      "userId": 1,
+      "id": 33
+    },
+    {
+      "bookId": 33,
+      "userId": 1,
+      "id": 34
+    },
+    {
+      "bookId": 34,
+      "userId": 1,
+      "id": 35
+    },
+    {
+      "bookId": 35,
+      "userId": 1,
+      "id": 36
+    },
+    {
+      "bookId": 36,
+      "userId": 1,
+      "id": 37
     }
   ],
   "borrowedBooks": [],
@@ -355,11 +559,6 @@
     },
     {
       "userId": 1,
-      "bookId": 15,
-      "id": 11
-    },
-    {
-      "userId": 1,
       "bookId": 17,
       "id": 12
     },
@@ -367,6 +566,81 @@
       "userId": 1,
       "bookId": 20,
       "id": 13
+    },
+    {
+      "userId": 1,
+      "bookId": 27,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "bookId": 33,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "bookId": 21,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "bookId": 34,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "bookId": 26,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "bookId": 5,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "bookId": 4,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "bookId": 18,
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "bookId": 13,
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "bookId": 19,
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "bookId": 8,
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "bookId": 23,
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "bookId": 24,
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "bookId": 32,
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "bookId": 31,
+      "id": 28
     }
   ]
 }
