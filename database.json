@@ -9,14 +9,6 @@
       "id": 1
     },
     {
-      "title": "what if?",
-      "author": "Randall Munroe",
-      "genre": "Comics",
-      "locationId": 1,
-      "cover": "https://m.media-amazon.com/images/I/71FjRaS5j1L._AC_UF1000,1000_QL80_.jpg",
-      "id": 2
-    },
-    {
       "id": 3,
       "title": "Nausicaa of the Valley of the Wind",
       "author": "Hayao Miyazaki",
@@ -350,11 +342,6 @@
       "userId": 1
     },
     {
-      "id": 2,
-      "bookId": 2,
-      "userId": 2
-    },
-    {
       "id": 3,
       "bookId": 3,
       "userId": 3
@@ -539,11 +526,6 @@
     },
     {
       "userId": 1,
-      "bookId": 2,
-      "id": 6
-    },
-    {
-      "userId": 1,
       "bookId": 9,
       "id": 8
     },
@@ -551,11 +533,6 @@
       "userId": 1,
       "bookId": 11,
       "id": 9
-    },
-    {
-      "userId": 1,
-      "bookId": 1,
-      "id": 10
     },
     {
       "userId": 1,
@@ -641,6 +618,11 @@
       "userId": 1,
       "bookId": 31,
       "id": 28
+    },
+    {
+      "userId": 1,
+      "bookId": 1,
+      "id": 29
     }
   ]
 }
