@@ -4,7 +4,7 @@
       "title": "I Will Judge You By Your Bookshelf",
       "author": "Grant Snider",
       "genre": "Comics",
-      "locationId": 2,
+      "locationId": 10,
       "cover": "https://m.media-amazon.com/images/I/71JVQlxb4+L._AC_UF1000,1000_QL80_.jpg",
       "id": 1
     },
@@ -49,12 +49,12 @@
       "locationId": 2
     },
     {
-      "id": 8,
       "title": "Scary Stories to Tell in the Dark",
       "author": "Alvin Schwartz",
-      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440189576l/1325218.jpg",
       "genre": "Children's Horror",
-      "locationId": 4
+      "locationId": 4,
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440189576l/1325218.jpg",
+      "id": 8
     },
     {
       "title": "The Children of Hurin",
@@ -333,6 +333,10 @@
     {
       "id": 8,
       "shelf": "Closet Black 8 Shelf"
+    },
+    {
+      "shelf": "Office Shelf",
+      "id": 9
     }
   ],
   "userBooks": [
@@ -369,7 +373,7 @@
     {
       "id": 8,
       "bookId": 8,
-      "userId": 3
+      "userId": 5
     },
     {
       "id": 9,
@@ -510,6 +514,11 @@
       "bookId": 36,
       "userId": 1,
       "id": 37
+    },
+    {
+      "bookId": 16,
+      "userId": 1,
+      "id": 38
     }
   ],
   "borrowedBooks": [],
